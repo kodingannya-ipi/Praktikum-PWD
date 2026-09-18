@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoundTheVibe — Vinyl Shop</title>
+  <link rel="stylesheet" href="PPWD-web-profile.css">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#beranda" class="brand">FoundThe<span>Vibe</span></a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#beranda" class="nav-link">Home</a>
+        <a href="#tentang" class="nav-link">About</a>
+        <a href="#layanan" class="nav-link">Services</a>
+        <a href="#portofolio" class="nav-link">Collection</a>
+        <a href="#tim" class="nav-link">Team</a>
+        <a href="#testimoni" class="nav-link">Testimonials</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#kontak" class="nav-link nav-cta">Contact Us</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <button id="dark-mode-toggle" class="btn-icon" type="button" aria-label="Toggle theme"></button>
+        <button id="hamburger" class="hamburger" type="button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section id="beranda" class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Vinyl & Record Shop</p>
+
+      <h1>
+        Find the Sound,
+        <span>Find Your Vibe</span>
+        at FoundTheVibe
+      </h1>
+
+      <p class="hero-desc">
+        FoundTheVibe is a home for lovers of analog music. We bring
+        together curated vinyl collections, from timeless classics to
+        rare pressings, to soundtrack every listening moment.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#portofolio" class="btn btn-primary">View Collection</a>
+        <a href="#kontak" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="section">
+    <div class="section-head">
+      <p class="eyebrow">About Us</p>
+      <h2>Spun With Heart</h2>
+
+      <p class="section-desc">
+        FoundTheVibe began with a love for the warm sound of vinyl.
+        Today we're a record shop that carefully curates every collection,
+        from jazz and soul to rock and city pop.
+      </p>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-number">500</span>
+        <span class="stat-suffix">+</span>
+        <p>Vinyl Records</p>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-number">1200</span>
+        <span class="stat-suffix">+</span>
+        <p>Happy Customers</p>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-number">3</span>
+        <p>Years in Business</p>
+      </div>
+
+      <div class="stat-card">
+        <span class="stat-number">15</span>
+        <span class="stat-suffix">+</span>
+        <p>Music Genres</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="layanan" class="section section-alt">
+    <div class="section-head">
+      <p class="eyebrow">Our Services</p>
+      <h2>Everything for Your Analog Music Needs</h2>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"></div>
+        <h3>Buy & Sell Vinyl</h3>
+        <p>
+          We buy, sell, and trade-in records, always inspecting
+          condition carefully before every deal.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"></div>
+        <h3>Record Restoration</h3>
+        <p>
+          Cleaning and repair services for old vinyl, bringing the
+          sound back to life like new.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"></div>
+        <h3>Collection Curation</h3>
+        <p>
+          Personalized help picking records that match your taste,
+          from beginners to seasoned collectors.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"></div>
+        <h3>Listening Sessions</h3>
+        <p>
+          Regular in-store listening events where the vinyl community
+          gathers to share recommendations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portofolio" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Collection</p>
+      <h2>Some Store Favorites</h2>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn aktif" data-kategori="semua" type="button">All</button>
+      <button class="filter-btn" data-kategori="jazz" type="button">Jazz & Soul</button>
+      <button class="filter-btn" data-kategori="rock" type="button">Rock & Indie</button>
+      <button class="filter-btn" data-kategori="citypop" type="button">City Pop</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-kategori="jazz">
+        <img
+          src="https://i.pinimg.com/736x/33/b0/25/33b0257299a1f95c033503843ecbc821.jpg"
+          alt="Classic jazz vinyl collection"
+        >
+        <div class="portfolio-info">
+          <h4>Classic Jazz Collection</h4>
+          <span class="tag">Jazz & Soul</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-kategori="rock">
+        <img
+          src="https://i.pinimg.com/736x/f7/66/f4/f766f47af75b8cc902711f2c27626104.jpg"
+          alt="Local rock and indie releases"
+        >
+        <div class="portfolio-info">
+          <h4>Local Indie Releases</h4>
+          <span class="tag">Rock & Indie</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-kategori="citypop">
+        <img
+          src="https://i.pinimg.com/736x/ee/c5/fa/eec5fab3a4f245a89590134fc4f1e94d.jpg"
+          alt="80s Japanese city pop collection"
+        >
+        <div class="portfolio-info">
+          <h4>'80s Japanese City Pop</h4>
+          <span class="tag">City Pop</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-kategori="jazz">
+        <img
+          src="https://i.pinimg.com/1200x/70/ac/32/70ac3293b9b5158074890f1ac28d185b.jpg"
+          alt="Soul and funk records"
+        >
+        <div class="portfolio-info">
+          <h4>Selected Soul & Funk</h4>
+          <span class="tag">Jazz & Soul</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-kategori="rock">
+        <img
+          src="https://i.pinimg.com/736x/df/6c/a2/df6ca21932b5088c0d5a268b1c449234.jpg"
+          alt="Rare classic rock releases"
+        >
+        <div class="portfolio-info">
+          <h4>Rare Classic Rock</h4>
+          <span class="tag">Rock & Indie</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-kategori="citypop">
+        <img
+          src="https://i.pinimg.com/1200x/2e/0a/31/2e0a31287d44d1e86092770fdeba6841.jpg"
+          alt="City pop and disco vinyl"
+        >
+        <div class="portfolio-info">
+          <h4>City Pop & Disco</h4>
+          <span class="tag">City Pop</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tim" class="section section-alt">
+    <div class="section-head">
+      <p class="eyebrow">Our Team</p>
+      <h2>The People Behind FoundTheVibe</h2>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/43/b8/f7/43b8f757efbe31ed48e6875165f3ee5d.jpg" alt="Photo of the Founder">
+        <h4>Ibel Isabel</h4>
+        <p class="role">Founder & Owner</p>
+      </div>
+
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/99/cd/b9/99cdb96ef5fdca7f47728d6481d6e0d4.jpg" alt="Photo of the Music Curator">
+        <h4>Iki Jalelus Meledus</h4>
+        <p class="role">Music Curator</p>
+      </div>
+
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/fb/19/a7/fb19a7d5aeb274a131ebdd76886e4642.jpg" alt="Photo of the Vinyl Restoration Technician">
+        <h4>Dian Igunawan</h4>
+        <p class="role">Vinyl Restoration Technician</p>
+      </div>
+
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/de/51/58/de5158882303da47f7e2109d98e3fa38.jpg" alt="Photo of Customer Care">
+        <h4>Edimas Meongha</h4>
+        <p class="role">Customer Care</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimoni" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Testimonials</p>
+      <h2>What Our Customers Say</h2>
+    </div>
+
+    <div class="testimonial-slider">
+      <button
+        id="testi-prev"
+        class="testi-nav"
+        type="button"
+        aria-label="Previous testimonial"
+      >&#10094;</button>
+
+      <div class="testimonial-track" id="testimonial-track">
+
+        <div class="testimonial-slide">
+          <p class="quote">
+            "The collection is extensive and always in great condition.
+            Shopping here feels safe because the quality is reliable."
+          </p>
+
+          <div class="testi-author">
+            <img
+              src="https://i.pinimg.com/1200x/65/a4/ac/65a4ac935f743759683ab23f71c69116.jpg"
+              alt="Photo of customer Cika Cikuy"
+            >
+            <div>
+              <strong>Cika Cikuy</strong>
+              <span>Cewek Gothic Punk Abiez</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <p class="quote">
+            "Their restoration service is amazing — my family's old
+            heirloom record can be played again with crystal clear sound."
+          </p>
+
+          <div class="testi-author">
+            <img
+              src="https://i.pinimg.com/736x/e0/15/85/e015859031eac6124726b8697716541e.jpg"
+              alt="Photo of customer Lilis Suryani"
+            >
+            <div>
+              <strong>Lilis Suryani</strong>
+              <span>Ketagihan Spotify</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <p class="quote">
+            "The listening sessions here are so much fun — I've met so
+            many fellow analog music lovers in this city."
+          </p>
+
+          <div class="testi-author">
+            <img
+              src="https://i.pinimg.com/736x/a5/58/ea/a558eaad585bc9f52bfea09f92830025.jpg"
+              alt="Photo of customer Meli Crocs"
+            >
+            <div>
+              <strong>Meli Crocs</strong>
+              <span>Suka Nyanyi</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button
+        id="testi-next"
+        class="testi-nav"
+        type="button"
+        aria-label="Next testimonial"
+      >&#10095;</button>
+    </div>
+
+    <div class="testi-dots" id="testi-dots"></div>
+  </section>
+
+  <section id="faq" class="section section-alt">
+    <div class="section-head">
+      <p class="eyebrow">FAQ</p>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="accordion">
+
+      <div class="accordion-item">
+        <button class="accordion-question" type="button">
+          Can I order vinyl online?
+          <span class="accordion-icon">+</span>
+        </button>
+
+        <div class="accordion-answer">
+          <p>
+            Yes. Reach out through our contact form or social media,
+            and we'll help you with ordering and shipping.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-question" type="button">
+          Is the condition of the records guaranteed?
+          <span class="accordion-icon">+</span>
+        </button>
+
+        <div class="accordion-answer">
+          <p>
+            Every record is inspected and its condition is honestly
+            listed before sale, so you know exactly what you're buying.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-question" type="button">
+          Can I trade in my old records?
+          <span class="accordion-icon">+</span>
+        </button>
+
+        <div class="accordion-answer">
+          <p>
+            Absolutely, bring your old collection to the shop and our
+            team will evaluate it for a trade toward new records.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-question" type="button">
+          Do you offer restoration for damaged records?
+          <span class="accordion-icon">+</span>
+        </button>
+
+        <div class="accordion-answer">
+          <p>
+            Yes. We offer cleaning and light repair services to bring
+            the sound back to its best.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-question" type="button">
+          When are the regular listening sessions held?
+          <span class="accordion-icon">+</span>
+        </button>
+
+        <div class="accordion-answer">
+          <p>
+            Listening sessions are held monthly in-store — follow our
+            social media for the schedule.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Visit the Shop or Reach Out</h2>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info">
+
+        <div class="info-item">
+          <span class="info-icon"></span>
+
+          <div>
+            <strong>Address</strong>
+            <p>
+              Jl. Ahmad Yani No. 21,
+              Pontianak, West Kalimantan
+            </p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon"></span>
+
+          <div>
+            <strong>Email</strong>
+            <p>foundthevibe@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon"></span>
+
+          <div>
+            <strong>Phone</strong>
+            <p>0812-3456-7890</p>
+          </div>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps?q=Pontianak&output=embed"
+            width="100%"
+            height="220"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+          </iframe>
+        </div>
+
+      </div>
+
+      <form id="contact-form" class="contact-form">
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="cf-nama">Full Name</label>
+            <input
+              type="text"
+              id="cf-nama"
+              name="nama"
+              required
+              minlength="3"
+              placeholder="Your name"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input
+              type="email"
+              id="cf-email"
+              name="email"
+              required
+              placeholder="name@email.com"
+            >
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="cf-subjek">Subject</label>
+          <input
+            type="text"
+            id="cf-subjek"
+            name="subjek"
+            required
+            placeholder="Your message topic"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="cf-pesan">Message</label>
+          <textarea
+            id="cf-pesan"
+            name="pesan"
+            rows="5"
+            required
+            minlength="10"
+            placeholder="Tell us what you're looking for..."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          Send Message
+        </button>
+
+        <div id="form-status" class="form-status"></div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <p class="brand">FoundThe<span>Vibe</span></p>
+        <p>A vinyl shop for every analog music lover.</p>
+      </div>
+
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <a href="#tentang">About</a>
+        <a href="#layanan">Services</a>
+        <a href="#portofolio">Collection</a>
+        <a href="#kontak">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <h5>Follow Us</h5>
+
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"></a>
+          <a href="#" aria-label="LinkedIn"></a>
+          <a href="#" aria-label="YouTube"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer-copy">
+      &copy; 2026 FoundTheVibe. Curated with Love for Music.
+    </p>
+
+  </footer>
+
+  <button
+    id="back-to-top"
+    class="back-to-top"
+    type="button"
+    aria-label="Back to top"
+  >↑</button>
+
+  <script src="PPWD-web-profile.js"></script>
+
+</body>
+</html>
